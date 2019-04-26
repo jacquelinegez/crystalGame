@@ -1,0 +1,32 @@
+#blueCrystal{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: none;
+}
+
+#greenCrystal {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: none;
+}
+
+#redCrystal {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: none;
+}
+#yellowCrystal {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: none;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+}
+
