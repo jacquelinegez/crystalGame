@@ -3,59 +3,62 @@
 
 <head>
     <meta charset="UTF-8">  
-    <link rel="stylesheet" href="assets/style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css" >
     <link rel="stylesheete" href="assets/style/reset.css">
         <title>Crystals Collector</title>
 </head>
 
-<body>
+<body background="./assets/images/crystal.jpg">
     <div class="container"> 
         <div class="row">
             <h1 class="header">Crystals Collector!</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 instruction">
+            <br>
+            <div class="col-lg-6">
+                <div id="rules">
                  <p>You will be given a random number at the start of the game.
-                    There are four crystals below. By clicking on a crystal you will add a
+                   <p> There are four crystals below. By clicking on a crystal you will add a
                     specific amount of points to your total score.</p>
                     <p>You win the game by matching your total score to random number, you lose the
-                    game if your total score goes above the random number.
-                    The value of each crystal is hidden from you until you click on it.
+                    game if your total score goes above the random number.</p>
+                   <p> The value of each crystal is hidden from you until you click on it.
                     Each time when the game starts, the game will change the values of each
                    crystal.</p>
-            </div>
-                            
-         </div>
-         
-          <br>
-    <div class="row">
+                   </div>
+                </div>
+          </div>
+          <div class="row">
          <h1>
              Random Generated Number:
              <span id="randomNumber"></span>
          </h1>
          <div class="col-lg-2 totalWL">
+         
          <br>
-             Wins:
+               WINS:
             <span id="numberWins"></span>
+         <br>
               <br> 
-                 Losses:
+                 LOSSES:
                  <span id="numberLosses"></span>
               <br>
+            </div>
          </div>
      </div>
-                        
+     <div class="row">                   
      <div class="button">
-         <img class="image" id="blueCrystal" src="assets/images/blueCrystal.jpg">
+         <img class="image" id="blueCrystal" src="assets/images/blueCrystal.png">
          <img class="image" id="greenCrystal" src="assets/images/greenCrystal.png">
-         <img class="image" id="redCrystal" src="assets/images/redCrystal.jpeg">
+         <img class="image" id="redCrystal" src="assets/images/redCrystal.png">
          <img class="image" id="yellowCrystal" src="assets/images/yellowCrystal.jpg">
      </div>
         <div class="row">
-            <h3>YOUR SCORE: 
+            <h1>YOUR SCORE: 
             <span id="totalScore"></span>
-            </h3>
+            </h1>
         </div>
-                        
+      </div>                  
                 
      </div>
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="text/javascript"></script>  
